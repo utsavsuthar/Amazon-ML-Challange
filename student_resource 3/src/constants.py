@@ -21,7 +21,7 @@ entity_unit_map = {
     'item_volume': {'centilitre',
         'cubic foot',
         'cubic inch',
-        'cup',
+        ',,,,',
         'decilitre',
         'fluid ounce',
         'gallon',
@@ -34,3 +34,4 @@ entity_unit_map = {
 }
 
 allowed_units = {unit for entity in entity_unit_map for unit in entity_unit_map[entity]}
+print(allowed_units)
